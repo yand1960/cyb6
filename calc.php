@@ -2,7 +2,7 @@
 	session_start();
 	if (!isset($_SESSION["user"])) {
 		echo '<meta http-equiv="refresh" content="3, URL=login.php" > ';
-		die("требуется логин! Вы будете перенаправлены через несколько секунд");
+		die("требуется логин!  Вы будете перенаправлены через несколько секунд");
 	}
 ?>
 
