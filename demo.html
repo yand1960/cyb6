@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Just demo</title>
+		<script>
+			function sayHello() {
+				//alert('Hello, world!!!');
+				document.getElementById("p1").innerText = "Hello, world!";
+				document.getElementById("p1").style.color = "red";
+			}
+			
+			function voice() {
+				document.getElementById("display").innerText = "Meoww!!";
+			}
+			
+			function silence() {
+				document.getElementById("display").innerText = "Hello, world!!!";
+			}
+		</script>
+	</head>
+	<body>
+		<h1 style="color: red; background-color: yellow" id="display">Hello, world!</h1>
+		<p id="p1">asdas asddasdas </p>
+		<p>asdas 
+				asddasdas </p>
+		<p>asdas asddasdas </p>
+		<button onclick="sayHello();">Click me!</button> <br />
+		<img src="images/cat.jpg" 
+			style="width: 300px;" 
+			onmouseover="voice();" 
+			onmouseout="silence();" />
+
+		<table border="1" style="width:50%;">
+			<tr>
+				<td>qqqwqw</td>
+				<td>qqqwqw</td>
+				<td>qqqwqw</td>
+			</tr>
+			<tr>
+				<td>aaaaa</td>
+				<td>aaaaa</td>
+				<td>aaaaa</td>
+			</tr>
+			<tr>
+				<td>qqqwqw</td>
+				<td>qqqwqw</td>
+				<td>qqqwqw</td>
+			</tr>
+		</table>
+	</body>
+</html>
